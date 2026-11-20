@@ -14,7 +14,7 @@ function FormSiswa() {
   const [kelas, setKelas] = useState("");
   const [dataSiswa, setDataSiswa] = useState(null);
 
-  function handleSubmit(e) {
+  const handleSubmit = (e) => {
     e.preventDefault();
     // Lengkapi logika saat form disubmit di sini
     setDataSiswa({
